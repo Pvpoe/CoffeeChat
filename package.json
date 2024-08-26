@@ -1,0 +1,17 @@
+{
+  "name": "coffeechat",
+  "version": "1.0.0",
+  "description": "A Slack bot to pair users for virtual coffee chats.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@slack/web-api": "^6.1.0",
+    "dotenv": "^10.0.0",
+    "node-cron": "^2.0.3"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
